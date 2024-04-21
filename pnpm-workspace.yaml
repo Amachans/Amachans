@@ -1,0 +1,4 @@
+packages:
+  - "apps/blockchain/**"
+  - "apps/client/**"
+  - "apps/server/**"

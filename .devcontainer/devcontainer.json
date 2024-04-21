@@ -1,0 +1,16 @@
+{
+	"name": "Amachans",
+	"build": {
+		"dockerfile": "./Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"esbenp.prettier-vscode",
+				"GitHub.copilot"
+			],
+			"settings": {}
+		}
+	}
+}
