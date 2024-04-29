@@ -1,2 +1,11 @@
+# typescript
 .pnpm-store/*
 **/node_modules
+
+# kotlin
+**/.idea
+**/.gradle
+build
+
+# other
+.DS_Store
