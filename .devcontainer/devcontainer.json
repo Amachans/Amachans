@@ -8,9 +8,22 @@
 			"extensions": [
 				"eamodio.gitlens",
 				"esbenp.prettier-vscode",
-				"GitHub.copilot"
+				"streetsidesoftware.code-spell-checker",
+				"mathiasfrohlich.Kotlin"
 			],
-			"settings": {}
+			"settings": {
+				"editor.tabSize": 4,
+				"editor.formatOnSave": true,
+				"[typescript]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[json]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[css]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+				}
+			}
 		}
 	}
 }
