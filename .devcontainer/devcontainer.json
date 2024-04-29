@@ -1,8 +1,8 @@
 {
 	"name": "Amachans",
-	"build": {
-		"dockerfile": "./Dockerfile"
-	},
+	"dockerComposeFile": "./docker-compose.yml",
+	"workspaceFolder": "/work/dev",
+	"service": "dev",
 	"customizations": {
 		"vscode": {
 			"extensions": [

@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: lena
+  datasource:
+    url: jdbc:mysql://localhost:3306/lena
+    username: root
+    password: root
+    driver-class-name=com: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+        ddl-auto: update
+  flyway:
+    enable: true
+    baseline-on-migrate: true
+    user: root
+    password: root
+    url: jdbc:mysql://localhost:3306/lena

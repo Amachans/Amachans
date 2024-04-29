@@ -1,13 +1,15 @@
 package com.amachans.lena.test
 
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class TestController {
+class TestController (
+    val testUseCase: TestUseCase
+){
     @GetMapping("test")
-
     fun test() : String{
-        return "test"
+        return testUseCase.getEntity("id").description
     }
 }

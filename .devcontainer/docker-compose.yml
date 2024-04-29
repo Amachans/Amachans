@@ -1,0 +1,30 @@
+version: "3"
+services:
+  dev:
+    build: ./dev
+    container_name: dev
+    ports:
+      - 3030:3030
+    tty: true
+    volumes:
+      - ..:/work/dev:cached
+  db:
+    build: ./db
+    container_name: db
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: lena
+      MYSQL_ROOT_PASSWORD: root
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    depends_on:
+      - db
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS=db
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+    ports:
+      - 9080:80
