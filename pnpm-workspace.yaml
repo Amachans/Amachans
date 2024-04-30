@@ -2,3 +2,4 @@ packages:
   - "apps/blockchain/**"
   - "apps/client/**"
   - "apps/server/**"
+  - "apps/infra/**"
