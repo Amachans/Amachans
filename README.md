@@ -1,4 +1,4 @@
 # Amachans
 
-### トークンエコノミクス
-![トークンエコノミクス](docs/token_economics.drawio.png)
+### TokenEconomics
+![TokenEconomics](docs/token_economics.drawio.png)
