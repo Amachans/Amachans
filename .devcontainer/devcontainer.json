@@ -9,7 +9,8 @@
 				"eamodio.gitlens",
 				"esbenp.prettier-vscode",
 				"streetsidesoftware.code-spell-checker",
-				"mathiasfrohlich.Kotlin"
+				"mathiasfrohlich.Kotlin",
+				"hediet.vscode-drawio"
 			],
 			"settings": {
 				"editor.tabSize": 4,
