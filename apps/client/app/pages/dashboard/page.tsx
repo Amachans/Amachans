@@ -4,6 +4,7 @@ import React from "react"
 import { useRouter } from "next/navigation";
 import Button from "@mui/material/Button";
 import Link from "next/link";
+import QrcodeReaderComponent from "@/app/features/ScanQr/QrcodeReaderComponent";
 
 export const Dashboard = () => {
     const router = useRouter();
@@ -15,7 +16,7 @@ export const Dashboard = () => {
                     My Wallet
                 </div>
                 <div>
-                    TODO: getAddressした結果をQRに変換して表示する
+                    <QrcodeReaderComponent />
                 </div>
             </div>
 

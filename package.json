@@ -4,5 +4,9 @@
   "description": "",
   "scripts": {},
   "keywords": [],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "html5-qrcode": "^2.3.8",
+    "react-select": "^5.8.0"
+  }
 }
