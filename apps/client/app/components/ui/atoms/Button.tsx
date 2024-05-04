@@ -1,5 +1,5 @@
 import React from "react";
-import { Button as ButtonBase, ButtonProps as BaseProps } from "@mui/material"
+import { Button as ButtonBase, ButtonProps as BaseProps } from "@mui/material";
 import { ButtonHTMLAttributes } from "react"
 
 export type ButtonProps = BaseProps & ButtonHTMLAttributes<HTMLButtonElement>;
