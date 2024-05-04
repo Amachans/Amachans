@@ -1,9 +1,9 @@
 "use client";
-import { apiClient } from "@/lib/util/aspidaClient";
-import { useEffect } from "react";
 import useAspidaSWR from "@aspida/swr";
 
+import { apiClient } from "@/lib/util/apiClient";
+
 export default function Home() {
-  const { data } = useAspidaSWR(apiClient.test);
+  const { data } = useAspidaSWR(apiClient.test, {});
   return <main>{data}</main>;
 }
