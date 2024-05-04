@@ -5,3 +5,4 @@ RUN apk add curl  \
     git
 
 RUN npm install -g pnpm
+RUN pnpm config set store-dir /tmp/pnpm/store
