@@ -1,5 +1,7 @@
+// /dashboard/page.tsx
+"use client"
 import React from "react"
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 
@@ -26,7 +28,7 @@ export const Dashboard = () => {
             </div>
 
             <div>
-                <Link href="/dashboard"> {/* Linkコンポーネントでラップ */}
+                <Link href="transfer"> {/* Linkコンポーネントでラップ */}
                     <Button>
                         Exit
                     </Button>
@@ -36,3 +38,4 @@ export const Dashboard = () => {
         </div>
     )
 }
+export default Dashboard;
