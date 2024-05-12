@@ -23,7 +23,7 @@ function App() {
         <ConnectWallet />
         <TransferFt />
       </QueryClientProvider>
-    </WagmiProvider>
+    </WagmiProvider>app/pages/transfer/page.tsx 
   );
 }
 
