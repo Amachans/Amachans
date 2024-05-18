@@ -1,9 +1,11 @@
+// /transfer/page.tsx
+"use client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { WagmiProvider, useAccount } from "wagmi";
 
-import { Account } from "./account";
-import { config } from "./config";
-import { WalletOptions } from "./wallet-options";
+import { Account } from "@/lib/walletConect/account";
+import { config } from "@/lib/walletConect/config";
+import { WalletOptions } from "@/lib/walletConect/wallet-options";
 
 const queryClient = new QueryClient();
 
@@ -22,3 +24,5 @@ function App() {
     </WagmiProvider>
   );
 }
+
+export default App;

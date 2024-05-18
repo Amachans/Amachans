@@ -5,9 +5,5 @@
   "scripts": {},
   "keywords": [],
   "license": "MIT",
-  "dependencies": {
-    "@tanstack/react-query": "^5.34.1",
-    "viem": "^2.9.31",
-    "wagmi": "^2.8.1"
-  }
+  "dependencies": {}
 }
