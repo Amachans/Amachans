@@ -11,7 +11,9 @@
         "streetsidesoftware.code-spell-checker",
         "mathiasfrohlich.Kotlin",
         "hediet.vscode-drawio",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "bierner.markdown-mermaid",
+        "vstirbu.vscode-mermaid-preview"
       ],
       "settings": {
         "editor.tabSize": 4,
@@ -26,6 +28,10 @@
         },
         "[css]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[markdown]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": false
         }
       }
     }
