@@ -1,6 +1,13 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": ["amachans", "aspida"],
-  "ignorePaths": [".vscode/**", ".devcontainer/**"]
+  "words": [
+    "amachans",
+    "aspida",
+    "unoptimized"
+  ],
+  "ignorePaths": [
+    ".vscode/**",
+    ".devcontainer/**"
+  ]
 }
