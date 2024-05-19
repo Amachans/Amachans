@@ -1,8 +1,6 @@
-import { http, createConfig } from "wagmi";
-import { base } from "wagmi/chains";
-import { injected, metaMask, safe, walletConnect } from "wagmi/connectors";
-
-import { mainnet } from "./jocChain";
+import { http, createConfig } from 'wagmi'
+import { base, mainnet, optimism } from 'wagmi/chains'
+import { injected, metaMask, safe, walletConnect } from 'wagmi/connectors'
 
 const projectId = "bc511cf1af98c7de16bec0aa264995bb";
 
