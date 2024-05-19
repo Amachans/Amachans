@@ -12,7 +12,7 @@ export const mainnet = {
     default: { http: ["https://rpc-1.japanopenchain.org:8545"] },
   },
   blockExplorers: {
-    default: { name: "Jocscan", url: "https://explorer.japanopenchain.org" },
+    default: { name: "JocScan", url: "https://explorer.japanopenchain.org" },
   },
   contracts: {
     ensRegistry: {
