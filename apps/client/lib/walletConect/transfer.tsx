@@ -11,7 +11,7 @@ export function TransferFt() {
     const to = formData.get("address") as `0x${string}`;
     const value = formData.get("value") as string;
     writeContract({
-      address: "0x0ab80c8698C1ac5Fe9eA2eF197ed7144BE39Ac99",
+      address: "0x890e7b769e2634CDd934b9C7f007227f7f0492B7",
       abi,
       functionName: "transfer",
       args: [BigInt(value), to],
@@ -26,7 +26,7 @@ export function TransferFt() {
     <form onSubmit={submit}>
       <input name="address" placeholder="0xA0Cf…251e" required />
       <input name="value" placeholder="0.05" required />
-      <button type="submit">Mint</button>
+      <button type="submit">Transfer</button>
       {hash && <div>Transaction Hash: {hash}</div>}
       {isConfirming && <div>Waiting for confirmation...</div>}
       {isConfirmed && <div>Transaction confirmed.</div>}
